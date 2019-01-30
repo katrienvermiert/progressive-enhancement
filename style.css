@@ -1,0 +1,134 @@
+body{
+    max-width: 90%;
+    margin: 0 auto;
+    /* background: linear-gradient(90deg, rgb(173, 221, 100), rgb(133, 170, 77)); */
+    background-image: url(images/palegreen.jpg);
+    /* background-repeat: no-repeat;
+    background-position: right bottom; */
+    background-size: cover;
+}
+
+h1{
+    background: rgb(250, 250, 75);
+    font-family: 'ZCOOL KuaiLe', cursive;;
+    color: #043f42;
+}
+
+h2{
+    font-family: 'ZCOOL KuaiLe', cursive;;
+    color: #043f42;
+}
+
+header{
+    text-align: center;
+}
+
+header > p{
+    font-weight: bold;
+    font-size: medium;
+}
+
+img{
+    display: block;
+    margin:0 auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li:first-child{
+    background-image: url(../progressive-enhancement/images/thumbup.png);
+    background-repeat: no-repeat;
+    background-size: 1.5em;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+li:nth-child(even){
+    background-image: url(../progressive-enhancement/images/thumbdown.png);
+    background-repeat: no-repeat;
+    background-size: 1.5em;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+li:last-child{
+    background-image: url(../progressive-enhancement/images/cat.png);
+    background-repeat: no-repeat;
+    background-size: 1.5em;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+p, ul{
+    font-family: 'Indie Flower', cursive;;
+    line-height: 1.6;
+    font-size: large;
+    color: #043f42;
+}
+
+blockquote{
+    font-family: 'Indie Flower', cursive;;
+    line-height: 1.6;
+    font-size: 160%;
+    color: #043f42;
+    width: 50%;
+    margin: 50px auto;
+    background: rgb(241, 241, 241);
+    /* border-left: 3px dashed; */
+    padding-left: 30px;
+}
+
+.villagers{
+    border-left: 3px dashed firebrick;
+}
+
+.farmer{
+    border-left: 3px dashed rgb(12, 12, 54);
+}
+
+.good, .bad{
+    text-transform: capitalize;
+}
+
+.good{
+    color: rgb(3, 63, 3);
+}
+
+.bad{
+    color: red;
+}
+
+th, tr:nth-child(even){
+    background-color: grey;
+}
+
+td{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #043f42;
+    font-family: 'Indie Flower', cursive;;
+    font-size: large;
+    font-weight: bolder
+}
+
+a:visited{
+    color: rgb(218, 98, 0);
+}
+
+a:hover{
+    color:#E8BB2A;
+}
+
+table{
+    color: #043f42;
+    font-family: 'Indie Flower', cursive;;
+}
+
+footer{
+    text-align: center;
+}
